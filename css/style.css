@@ -35,7 +35,7 @@ a
 .Menu{
     grid-area: 4 / 1 / span 1 / -1;
     background-color: #72d5f0;
-	text-align: center;
+    text-align: center;
     box-shadow:0.1rem 0.1rem 1rem #aaa;
 }
 
