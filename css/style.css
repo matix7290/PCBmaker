@@ -36,7 +36,7 @@ a
     grid-area: 4 / 1 / span 1 / -1;
     background-color: #72d5f0;
 	text-align: center;
-    border: 2px solid black;
+    box-shadow:0.1rem 0.1rem 1rem #aaa;
 }
 
 .Menu > ol
@@ -54,7 +54,6 @@ a
 	float: left;
 	width: 189px;
 	height: 52px;
-    border-right: 2px solid black;
     padding-top: 4px;
 }
 
@@ -77,14 +76,14 @@ a
 
 .Slider{
     grid-area: 6 / 2 / span 3 / 12;
-    border: black 2px solid;
+    box-shadow:0.1rem 0.1rem 1rem #aaa;
 }
 
 .FB{
     grid-area: 10 / 10 / span 2 / 12;
     background-color: #4267b2;
     text-align: center;
-    border: 2px solid black;
+    box-shadow:0.1rem 0.1rem 1rem #aaa;
 }
 
 .FB:hover{
@@ -96,8 +95,7 @@ a
     grid-area: 13 / 10 / span 2 / 12;
     background-color: #dd2269;
     text-align: center;
-    border: 2px solid black;
-}
+    box-shadow:0.1rem 0.1rem 1rem #aaa;}
 
 .IG:hover{
     background-color: #b81b57;
@@ -108,8 +106,7 @@ a
     grid-area: 16 / 10 / span 2 / 12;
     background-color: #e52027;
     text-align: center;
-    border: 2px solid black;
-}
+    box-shadow:0.1rem 0.1rem 1rem #aaa;}
 
 .YT:hover{
     background-color: #be1a1f;
@@ -120,8 +117,7 @@ a
     grid-area: 19 / 10 / span 2 / 12;
     background-color: #39a2f3;
     text-align: center;
-    border: 2px solid black;
-}
+    box-shadow:0.1rem 0.1rem 1rem #aaa;}
 
 .TW:hover{
     background-color: #2e84c5;
@@ -151,33 +147,15 @@ a
 .Title{
     grid-area: 1 / 1 / 2 / 4;
     font-size: 30px;
-    border: 2px solid black;
-}
+    box-shadow:0.1rem 0.1rem 1rem #aaa;}
 
-.img_1{
-    grid-area: 2 / 1 / 3 / 2;
-    border-bottom: 2px solid black;;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-}
+.img_1{grid-area: 2 / 1 / 3 / 2;}
 
-.img_2{
-    grid-area: 2 / 2 / 3 / 3;
-    border-bottom: 2px solid black;
-}
+.img_2{grid-area: 2 / 2 / 3 / 3;}
 
-.img_3{
-    grid-area: 2 / 3 / 3 / 4;
-    border-bottom: 2px solid black;;
-    border-left: 2px solid black;
-    border-right: 2px solid black;
-}
+.img_3{grid-area: 2 / 3 / 3 / 4;}
 
-.img_4{
-    grid-area: 2 / 2 / 3 / 3;
-    border-bottom: 2px solid black;;
-    border-right: 2px solid black;
-}
+.img_4{grid-area: 2 / 2 / 3 / 3;}
 
 .Footer{
     grid-area: 22 / 1 / 23 / -1;
