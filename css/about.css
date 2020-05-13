@@ -1,0 +1,28 @@
+.grid-container{
+    grid-template-rows: 80px 80px 20px 60px 20px auto;
+}
+
+.opis{
+    display: grid;
+    grid-template-columns: 1fr 40px auto;
+    grid-template-rows: auto;
+    grid-area: 6 / 1 / 8 / 13;
+    background-color: #72d5f0;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.tekst{
+    grid-area: 1 / 1 / 2 / 2;
+    padding: 1rem;
+    margin: 0;
+}
+
+.zdj{
+    grid-area: 1 / 3 / 2 / 4;
+    border: solid 1px black;
+    border-radius: 5px;
+    font-size: 30px;
+    margin: 0;
+}

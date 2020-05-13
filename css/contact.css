@@ -1,0 +1,26 @@
+.grid-container{
+    grid-template-rows: 80px 80px 20px 60px 20px 400px;
+}
+
+.contact{
+    display: grid;
+    grid-template-columns: 0.5fr 1fr 0.5fr 2fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-area: 6 / 1 / 7 / 13;
+    background-color: #72d5f0;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.text{
+    grid-area: 2 / 2 / 3 / 3;
+    text-align: center;
+}
+
+.mapa{
+    grid-area: 1 / 4 / -1 / 5;
+    border-radius: 5px;
+    width: 571px;
+    height: 368px;
+}

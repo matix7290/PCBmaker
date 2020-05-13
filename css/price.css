@@ -1,0 +1,23 @@
+.grid-container{
+    grid-template-rows: 80px 80px 20px 60px 20px auto;
+}
+
+.cal{
+    grid-area: 6 / 1 / 7 / 13;
+    background-color: #72d5f0;
+    border: solid 1px black;
+    border-radius: 5px;
+    padding: 1rem;
+}
+
+.table{
+    border: solid 1px black;
+    border-radius: 5px;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table td{
+    border: 1px ridge black;
+    padding: 0.25rem;
+}
